@@ -19,7 +19,32 @@ Demo account is configured with two traits: a solid background color and a small
 
 Generate an image with random traits:
 
-`curl "https://algonfts.art/v1/generate1/SGNMPHKQAJUG3DTJSGO6HHWP55CVSY6DD4CITFGD7QLFRTHHC237TGTRUA" -H "NFTGEN-KEY: GWQHTJA-5FNECQY-RTZZSTY-MFLEXTA`
+```sh
+curl "https://algonfts.art/v1/generate1/SGNMPHKQAJUG3DTJSGO6HHWP55CVSY6DD4CITFGD7QLFRTHHC237TGTRUA" -H "NFTGEN-KEY: GWQHTJA-5FNECQY-RTZZSTY-MFLEXTA
+`
+
+Result (formatted):
+
+```json
+
+    "filename": "1661449078005.webp",
+    "cid": "bafkreiauz6nx4362y7howx5ujkja7d7vhxzjzx6ujmoj2b7fx65ye2aeye",
+    "imageurl": "https://algonfts.art/SGNMPHKQAJUG3DTJSGO6HHWP55CVSY6DD4CITFGD7QLFRTHHC237TGTRUA/1/1661449078005.webp",
+    "arc69": {
+        "standard": "arc69",
+        "mime_type": "image/webp",
+        "media_url": "ipfs://bafkreiauz6nx4362y7howx5ujkja7d7vhxzjzx6ujmoj2b7fx65ye2aeye",
+        "properties": {
+            "bg": "red",
+            "fg": "smallorange 1661449077944"
+        }
+    },
+    "arc19": {
+        "url": "template-ipfs://{ipfscid:1:raw:reserve:sha2-256}",
+        "reserve": "CTHZW7TP3LD45227WRFJED4P6U67FHG72RFRZHIH4W73XATIATAZZBNCXM"
+    }
+}
+```
 
 Generate an image with a blue background and random foreground:
 
