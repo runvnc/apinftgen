@@ -21,7 +21,7 @@ Generate an image with random traits:
 
 ```sh
 curl "https://algonfts.art/v1/generate1/SGNMPHKQAJUG3DTJSGO6HHWP55CVSY6DD4CITFGD7QLFRTHHC237TGTRUA" \
-     -H "NFTGEN-KEY: GWQHTJA-5FNECQY-RTZZSTY-MFLEXTA
+     -H "NFTGEN-KEY: GWQHTJA-5FNECQY-RTZZSTY-MFLEXTA"
 ```
 
 Result (formatted):
@@ -51,7 +51,7 @@ Generate an image with a blue background and random foreground:
 
 ```sh
 curl "https://algonfts.art/v1/generate1/SGNMPHKQAJUG3DTJSGO6HHWP55CVSY6DD4CITFGD7QLFRTHHC237TGTRUA?bg=blue" \
-     -H "NFTGEN-KEY: GWQHTJA-5FNECQY-RTZZSTY-MFLEXTA`
+     -H "NFTGEN-KEY: GWQHTJA-5FNECQY-RTZZSTY-MFLEXTA"`
 ```
 
 Result (formatted):
