@@ -15,6 +15,8 @@ Generate an image using the collection image assets and configuration, returning
 
 ### Examples
 
+Demo account is configured with two traits: a solid background color and a small solid color foreground square.
+
 Generate an image with random traits:
 
 `curl "https://algonfts.art/v1/generate1/SGNMPHKQAJUG3DTJSGO6HHWP55CVSY6DD4CITFGD7QLFRTHHC237TGTRUA" -H "NFTGEN-KEY: GWQHTJA-5FNECQY-RTZZSTY-MFLEXTA`
