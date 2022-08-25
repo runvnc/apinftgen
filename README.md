@@ -49,11 +49,33 @@ Result (formatted):
 
 Generate an image with a blue background and random foreground:
 
-`curl "https://algonfts.art/v1/generate1/SGNMPHKQAJUG3DTJSGO6HHWP55CVSY6DD4CITFGD7QLFRTHHC237TGTRUA?bg=blue" -H "NFTGEN-KEY: GWQHTJA-5FNECQY-RTZZSTY-MFLEXTA`
+```sh
+curl "https://algonfts.art/v1/generate1/SGNMPHKQAJUG3DTJSGO6HHWP55CVSY6DD4CITFGD7QLFRTHHC237TGTRUA?bg=blue" \
+     -H "NFTGEN-KEY: GWQHTJA-5FNECQY-RTZZSTY-MFLEXTA`
+```
 
-Generate an image with a blue background and orange foreground:
+Result (formatted):
 
-`curl "https://algonfts.art/v1/generate1/SGNMPHKQAJUG3DTJSGO6HHWP55CVSY6DD4CITFGD7QLFRTHHC237TGTRUA?bg=blue" -H "NFTGEN-KEY: GWQHTJA-5FNECQY-RTZZSTY-MFLEXTA`
+```json
+{
+    "filename": "1661449078419.webp",
+    "cid": "bafkreievpik2sutrb5fa4sg5zrhxeryzmnpd2emnfay2zyhqe6qcb4xs5q",
+    "imageurl": "https://algonfts.art/SGNMPHKQAJUG3DTJSGO6HHWP55CVSY6DD4CITFGD7QLFRTHHC237TGTRUA/1/1661449078419.webp",
+    "arc69": {
+        "standard": "arc69",
+        "mime_type": "image/webp",
+        "media_url": "ipfs://bafkreievpik2sutrb5fa4sg5zrhxeryzmnpd2emnfay2zyhqe6qcb4xs5q",
+        "properties": {
+            "bg": "blue",
+            "fg": "smallyellow 1661449078359"
+        }
+    },
+    "arc19": {
+        "url": "template-ipfs://{ipfscid:1:raw:reserve:sha2-256}",
+        "reserve": "SV5BLKKSOEHUUDSI3XGE64SHDFRV4PIRRUUDDLHA6AT2AIHS6LWOZRPCRA"
+    }
+}
+```
 
 ## Credits
 
