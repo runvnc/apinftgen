@@ -9,7 +9,7 @@ The API key is specified in the `NFTGEN-KEY` header.
 
 ## Generate
 
-`/generate/[COLLECTION ADDRESS]` (optional traits in query string)
+`/generate1/[COLLECTION ADDRESS]` (optional traits in query string)
 
 Generate an image using the collection image assets and configuration, returning image URL and Arc69/Arc19 metadata.
 
